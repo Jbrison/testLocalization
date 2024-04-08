@@ -1,0 +1,205 @@
+{
+  "title": {
+    "prod": "Metropolis",
+    "dev": "Metropolis dev",
+    "default": "Metropolis"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue {}"
+  },
+  "form": {
+    "login": {
+      "noAccount": "Vous n'avez pas encore de compte ?",
+      "registerLink": "Inscrivez-vous"
+    },
+    "register": {
+      "title": "Inscription",
+      "firstname": "Prénom {}",
+      "lastname": "Nom {}",
+      "email": "Email {}",
+      "success": "Votre compte a bien été créé!"
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "titleInit": "Réinitialisation du mot de passe",
+      "infoText1": "Si vous avez oublié votre mot de passe, indiquez votre adresse email ci-dessous.",
+      "infoText2": "Nous vous enverrons un code pour recréer votre mot de passe.",
+      "infoText3": "Veuillez renseigner votre nouveau mot de passe ci-dessous.",
+      "email": "Votre adresse email {}",
+      "code": "Code de vérification {}",
+      "verifyCodeTitle": "Vérification du code",
+      "verifyCodeInfoText": "Veuillez saisir le code qui a été envoyé à cet email",
+      "resendCodeText": "Vous n'avez pas reçu le code ?",
+      "resendCodeButton": "RENVOYER",
+      "newPassword": "Nouveau mot de passe {}",
+      "passwordUpdated": "Votre mot de passe a été mis à jour !",
+      "incorrectCode": "Code incorrect",
+      "incorrectRegexPassword": "Votre mot de passe doit contenir au moins 8 caractères, une majuscule, une minuscule et un chiffre"
+    },
+    "globalFields": {
+      "mail": "Mail",
+      "password": "Mot de passe",
+      "passwordConfirmation": "Confirmation du mot de passe {}"
+    },
+    "errors": {
+      "required": "Veuillez renseigner votre {}",
+      "passwordConfirmation": "Les mots de passe ne correspondent pas",
+      "incorrectCredentials": "Login ou mot de passe incorrect"
+    }
+  },
+  "button": {
+    "login": "Je me connecte",
+    "register": "S'inscrire",
+    "logout": "Se déconnecter",
+    "send": "Envoyer",
+    "validate": "Valider",
+    "download": "Télécharger",
+    "search": "Rechercher",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "resetFilters": "Réinitialiser les filtres",
+    "look": "Consulter"
+  },
+  "mail": {
+    "incorrect": "Veuillez renseigner une adresse email valide",
+    "error": "Une erreur est survenue lors de l'envoi de l'email",
+    "success": "Email envoyé avec succès !"
+  },
+  "errors": {
+    "NoConnectionException": "Veuillez vérifier votre connexion internet",
+    "TokenExpiredException": "Votre session a expiré, veuillez vous reconnecter",
+    "default": "Une erreur est survenue",
+    "defaultServer": "Une erreur est survenue côté serveur, veuillez réessayer plus tard",
+    "NotFoundException": "Ressource demandée non trouvée"
+  },
+  "footer": {
+    "terms": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfSales": "Conditions générales de vente"
+  },
+  "assistance": {
+    "title": "Besoin d'assistance ?",
+    "body": "Nous sommes disponibles \n 24h/24h par téléphone",
+    "bottom": "Appel non surtaxé"
+  },
+  "drawer": {
+    "ourOffers": "Nos offres",
+    "ourStations": "Nos bornes",
+    "theProject": "Le projet",
+    "contact": "Contact",
+    "scan": "Scanner une borne",
+    "alerts": "Alertes",
+    "mySpace": "Mon espace",
+    "connexion": "Connexion",
+    "back": "Retour"
+  },
+  "topbar": {
+    "backToSite": "Retourner sur le site"
+  },
+  "menuContent": {
+    "myInfos": "Mes informations",
+    "MyLoads": "Mes charges",
+    "myBills": "Mes factures",
+    "myBadges": "Mes badges",
+    "myPaymentMethods": "Mes moyens de paiements",
+    "mySubscriptions": "Mes abonnements",
+    "myReservations": "Mes réservations",
+    "logout": "Déconnexion"
+  },
+  "badges": {
+    "title": "Mes badges",
+    "tag": "Tag",
+    "type": "Type",
+    "subscription": "Abonnement",
+    "delete": "Supprimer le badge"
+  },
+  "map": {
+    "searchInput": "Rechercher un lieu",
+    "legend": {
+      "title": "Légende",
+      "normal": "Rapide",
+      "fast": "Accéléré",
+      "express": "Express",
+      "available": "Libre",
+      "unavailable": "Indisponible",
+      "installation": "Installation",
+      "stationType": "Types de borne",
+      "stationState": "Disponibilité de la borne"
+    },
+    "detail":  {
+      "publicRates": "Tarifs public",
+      "ratesPerKwh": "Tarifs au kWh",
+      "meansOfPayment": "Moyens de paiement",
+      "contactLess": "CB sans contact sur le totem",
+      "nfc": "Badge Metropolis ou autre opérateur",
+      "qrCode": "Paiement en ligne (QR Code ou App )",
+      "chargePointDesc": "Pour lancer et stopper une charge, veuillez cliquer sur un des points de charge ci-dessous :",
+      "subscribeBtn": "Je m'abonne",
+      "stationDetails": "Détails de la station"
+    }
+  },
+  "bills": {
+    "title": "Mes factures",
+    "date": "Date de facture",
+    "price": "Montant TTC",
+    "type": "Type",
+    "search": "Rechercher une facture"
+  },
+  "dateModal": {
+    "from": "Du",
+    "to": "au",
+    "start": "Début",
+    "end": "Fin",
+    "selectPeriod": "Sélectionner une période",
+    "since": "Depuis le",
+    "until": "Jusqu'au",
+    "noSelected": "Aucune date sélectionnée",
+    "filter": "Filtrer"
+  },
+  "qrCode": {
+    "scan": "Scanner le QR code",
+    "result": "Résultat du scan",
+    "torch": "Lampe",
+    "scanError": "Erreur lors de la lecture du QR code",
+    "scanErrorText": "Veuillez réessayer",
+    "scanErrorButton": "Réessayer",
+    "noCameraAccess": "Vous n'avez pas autorisé l'accès à la caméra"
+  },
+  "subscriptions": {
+    "title": "Mes abonnements",
+    "date": "Date",
+    "status": "Statut",
+    "automaticRenewal": "Renouvellement automatique",
+    "edit": "Modifier l'abonnement",
+    "paymentMethod": "Moyen de paiement",
+    "confirmText": "Êtes-vous sûr de vouloir changer le renouvellement automatique ?",
+    "confirmTitle": "Changement du renouvellement automatique"
+  },
+  "paymentMethods": {
+    "card": "Carte bancaire",
+    "sepa": "Prélèvement SEPA",
+    "wallet": "Portefeuille"
+  },
+  "splashScreen": {
+    "devModeEnabled": "Environnement de développement activé"
+  },
+  "reservations": {
+    "title": "Mes réservations",
+    "start": "Début",
+    "end": "Fin",
+    "status": "Statut",
+    "chargingPoint": "Point de charge",
+    "search": "Rechercher une réservation",
+    "displayOnlyActives": "Afficher uniquement les réservations actives",
+    "display": "Affichage"
+  },
+  "status": {
+    "suspended": "Suspendu",
+    "removed": "Supprimé",
+    "expired": "Expiré",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "subscribed": "Abonné"
+  }
+}
